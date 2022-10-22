@@ -16,6 +16,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { EducationComponent } from './education/education.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
 	declarations: [
@@ -26,7 +27,8 @@ import { EducationComponent } from './education/education.component';
 		ContactComponent,
 		HeaderComponent,
   		FooterComponent,
-    EducationComponent
+    EducationComponent,
+    SkillsComponent
 	],
 	imports: [
 		BrowserModule,

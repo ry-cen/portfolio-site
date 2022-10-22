@@ -9,16 +9,23 @@
 }
 
 mat-card {
+    transition: 0.5s ease;
     background: black;
     box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
     width:auto;
 }
 
+
+mat-card:hover {
+    transform: scale(1.02)
+}
+
+
 .content {
     font-size: 1em;
     align-items: left;
     width: auto;
-    margin: 6vh 20vw 0 20vw;
+    margin: 10vh 20vw 0 20vw;
 }
 
 .section {
@@ -28,7 +35,7 @@ mat-card {
 
 .anchor {
     position:absolute;
-    margin-top: -9vh;
+    margin-top: -15vh;
 }
 
 .info-grid {
@@ -49,15 +56,15 @@ mat-card {
     }
 
     .flex-container {
-        margin-left:-2vw;
+        margin: 1vw;
         width: 68vw;
-        grid-template-columns: 80vw;
+        grid-template-columns: 70vw;
     }
 
     .content {
         align-items: left;
         width: auto;
         max-width:max-content;
-        margin: 3vw 10vw 0 10vw;
+        margin: 10vh 10vw 0 10vw;
     }
 }
