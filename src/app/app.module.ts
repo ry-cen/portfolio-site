@@ -15,6 +15,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
 	declarations: [
@@ -24,7 +25,8 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 		AboutComponent,
 		ContactComponent,
 		HeaderComponent,
-  		FooterComponent
+  		FooterComponent,
+    EducationComponent
 	],
 	imports: [
 		BrowserModule,
